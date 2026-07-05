@@ -1,2 +1,2 @@
-# DSA
-DSA Practice questions from various platforms.
+# DSA Practice
+My collection of DSA Practice questions from various platforms.

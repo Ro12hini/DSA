@@ -6,12 +6,17 @@ public class BubbleSort {
     public static int[] bubbleSort(int[] nums){
 
         for(int i=0; i<nums.length; i++){
+            boolean swapped = false;
             for(int j=0; j<nums.length-1-i; j++){
                 if(nums[j] > nums[j+1]){
                     int t = nums[j];
                     nums[j] = nums[j+1];
                     nums[j+1] = t;
+                    swapped = true;
                 }
+            }
+            if(!swapped){
+                break;
             }
         }
 
